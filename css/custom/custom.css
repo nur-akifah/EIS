@@ -1,0 +1,122 @@
+.fixed-nav-bar { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 100%; 
+    height: 50px; 
+}
+
+
+section.pricing {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+  
+  .pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+  
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
+
+  #table th
+	{
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	#table td
+	{
+		text-align: center;
+		vertical-align: middle;
+	}
+
+			.pagination {
+				list-style-type: none;
+				padding: 10px 0;
+				display: inline-flex;
+				justify-content: space-between;
+				box-sizing: border-box;
+			}
+			.pagination li {
+				box-sizing: border-box;
+				padding-right: 10px;
+			}
+			.pagination li a {
+				box-sizing: border-box;
+				background-color: #e2e6e6;
+				padding: 8px;
+				text-decoration: none;
+				font-size: 12px;
+				font-weight: bold;
+				color: #616872;
+				border-radius: 4px;
+			}
+			.pagination li a:hover {
+				background-color: #d4dada;
+			}
+			.pagination .next a, .pagination .prev a {
+				text-transform: uppercase;
+				font-size: 12px;
+			}
+			.pagination .currentpage a {
+				background-color: #518acb;
+				color: #fff;
+			}
+			.pagination .currentpage a:hover {
+				background-color: #518acb;
+			}
+
